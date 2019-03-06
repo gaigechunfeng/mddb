@@ -40,7 +40,7 @@ public class DbUtilTest {
     }
 
     @Table(name = "test_c")
-    class C extends UuidEntity {
+    static class C extends UuidEntity {
 
         private String name;
         private String des;
